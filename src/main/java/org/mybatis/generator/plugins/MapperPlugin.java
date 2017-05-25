@@ -4,13 +4,11 @@ import org.mybatis.generator.api.GeneratedJavaFile;
 import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.PluginAdapter;
 import org.mybatis.generator.api.dom.java.*;
-import org.mybatis.generator.config.CommentGeneratorConfiguration;
-import org.mybatis.generator.config.Context;
-import org.mybatis.generator.internal.DefaultCommentGenerator;
-import org.mybatis.generator.internal.util.StringUtility;
 
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 统一Mapper生成
@@ -183,9 +181,9 @@ public class MapperPlugin extends PluginAdapter {
         javaElement.addJavaDocLine(" * E:Example");
         javaElement.addJavaDocLine(" * ID:主键的变量类型");
         javaElement.addJavaDocLine(" *");
-        javaElement.addJavaDocLine(" * @author orange1438");
-        javaElement.addJavaDocLine(" *         github: https://github.com/orange1438");
-        javaElement.addJavaDocLine(" *         date: " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+//        javaElement.addJavaDocLine(" * @author orange1438");
+//        javaElement.addJavaDocLine(" *         github: https://github.com/orange1438");
+        javaElement.addJavaDocLine(" * date: " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
         javaElement.addJavaDocLine(" */");
     }
 
