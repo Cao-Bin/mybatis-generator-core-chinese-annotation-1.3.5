@@ -15,7 +15,7 @@ public class Orange1438Test {
         Orange1438Test test = new Orange1438Test();
         //取得根目录路径
         String rootPath = test.getClass().getResource("/").getFile().toString();
-        //当前目录路径
+        //当前目录路径 test
         //String currentPath1=test.getClass().getResource(".").getFile().toString();
         //String currentPath2=test.getClass().getResource("").getFile().toString();
         //当前目录的上级目录路径
