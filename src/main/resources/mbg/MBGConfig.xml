@@ -23,9 +23,9 @@
         </commentGenerator>
         <!--修改!修改!修改!connectionURL userId password-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://10.28.4.39:3306/smart"
-                        userId="beecloud"
-                        password="beecloud">
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/test"
+                        userId="root"
+                        password="root">
         </jdbcConnection>
 
         <!--修改!修改!修改!targetPackage-->
